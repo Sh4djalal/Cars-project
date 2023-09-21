@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #101517;
+}
+
+.container1{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+header h1{
+    font-size: 18px;
+    color: #101517;
+    margin-left: 20px;
+}
+
+
+nav{
+    display: flex;
+    width: 97%;
+    height: 15vh;
+    padding: 20px 0px;
+    margin-left: 22px;
+    background-color: #101517;
+    border-radius: 100px;
+    z-index: 1;
+}
+@media screen and (max-width:1000px){
+    nav{
+        display: flex;
+        width: 1000px;
+        height: 15vh;
+        padding: 20px 0px;
+        margin-left: 20px;
+        background-color: 101517;
+    }
+}
+nav .logo{
+    margin-left: 7%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    transform: scaleY(1.2);
+    color: gold;
+}
+nav ul{
+    margin-left: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+@media screen and (max-width:1500px){
+    nav ul{
+    margin-left: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+}
+@media screen and (max-width:800px){
+    nav ul{
+    margin-left: 20vw;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+}
+
+nav ul a{
+    margin: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color:#f0f0f1;
+}
+nav ul a:hover{
+    margin: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color:gold;
+}
+
+
+.SERVICE{
+    color: gold;
+    transform: translateY(-15px);
+}
+
+
+
+.ourService{
+    margin-top: 80px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width:97vw;
+    height: 600px;
+    display: inline-block;
+    background: url('../image/blackbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ourSP{
+    color: rgb(53, 53, 198);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.ourSh1{
+    color: #f8f8f8;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.divService{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 330px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.divService div{
+    height: 330px;
+    width: 300px;
+    background-color: #f8f8f8;
+    display: inline-block;
+    box-shadow: 15px 20px 50px black;
+    transition:all 0.5s ease;
+}
+.divService div:hover{
+    height: 330px;
+    width: 300px;
+    background-color: #f8f8f8;
+    display: inline-block;
+    box-shadow: 1px 20px 50px black;
+    transform: scale(1.2);
+}
+
+
+
+.divService div .div1S{
+    background-color: rgb(85, 85, 239);
+    width: 100%;
+    height: 10px;
+}
+.divService div img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 75px;
+}
+.divService div h1{
+    font-size: 30px;
+}
+.divService div p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+.containerF{
+    background-color: black;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    margin-top: 300px;
+
+}
+
+.iconef{
+    display: inline-block;
+    position: relative;
+    left: 75vw;
+    top: 140px;
+    
+}
+.iconef i{
+    /* margin: 15px; */
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.footer ul{
+    display: inline-block;
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: center;
+    justify-content: space-around;
+    color: #f0f0f1;
+    margin-top: 16vh;
+    margin-left:25vw;
+}
+.containerF h1{
+    height: 80px;
+    color: #f0f0f1;
+    margin-top: 50px;
+    margin-left: 40px;
+    transform: scaleY(1.2);
+    font-weight: bold;
+}

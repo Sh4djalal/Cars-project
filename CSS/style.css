@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+header h1{
+    font-size: 18px;
+    color: #101517;
+    margin-left: 20px;
+}
+
+
+
+.container1{
+    background-color: azure;
+    width: 100%;
+    min-height:100vh;
+    background-color: #01263a;
+    font-family: sans-serif;
+    
+}
+nav{
+    display: flex;
+    width: 97%;
+    height: 15vh;
+    padding: 20px 0px;
+    margin-left: 22px;
+    background-color: #101517;
+    border-radius: 100px;
+    z-index: 1;
+}
+@media screen and (max-width:1000px){
+    nav{
+        display: flex;
+        width: 1000px;
+        height: 15vh;
+        padding: 20px 0px;
+        margin-left: 20px;
+        background-color: 101517;
+    }
+}
+nav .logo{
+    margin-left: 7%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    transform: scaleY(1.2);
+    color: gold;
+}
+nav ul{
+    margin-left: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+@media screen and (max-width:1500px){
+    nav ul{
+    margin-left: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+}
+@media screen and (max-width:800px){
+    nav ul{
+    margin-left: 20vw;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+}
+
+nav ul a{
+    margin: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color:#f0f0f1;
+}
+nav ul a:hover{
+    margin: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color:gold;
+}
+
+.HOME{
+    color: gold;
+    transform: translateY(-15px);
+}
+
+
+.info .h1Info{
+    margin-left: 7%;
+    margin-top: 8%;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+.info .h1Info::selection{
+    background-color: gold;
+}
+.info .pInfo{
+    margin-left: 7%;
+    color: aliceblue;
+    font-size: 20px;
+}
+.info .pInfo::selection{
+    background-color: gold;
+}
+.buttonInfo{
+    margin-left: 7%;
+    margin-top: 2%;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gold;
+    color: black;
+}
+.buttonInfo:active{
+    margin-left: 7%;
+    margin-top: 2%;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gold;
+    color: black;
+    transform:translateY(5px);
+}
+button:active{
+    transform: translateY(5px);
+}
+.info .buttonInfo i{
+    margin-left: 10px;
+}
+.info .buttonInfo i:active{
+    margin-left: 10px;
+    transform: translateY(5px);
+}
+
+.info .imgInfo{
+    position: absolute;
+    width: 800px;
+    left: 45%;
+    top: 20%;
+    transition: all 0.8s ease;
+}
+.info .imgInfo:hover{
+    position: absolute;
+    width: 800px;
+    left: 45%;
+    top: 20%;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:1400px){
+    
+    
+    nav{
+        display: flex;
+        width: 95%;
+        height: 15vh;
+        padding: 20px 0px;
+        margin-left: 22px;
+        background-color: #101517;
+        border-radius: 5px;
+    }
+    
+    
+    
+    
+    .info .imgInfo{
+        position: absolute;
+        width: 814px;
+        left: 10%;
+        top: 10%;
+    }
+
+    .info .h1Info{
+        margin-left: 30%;
+        margin-top: 40%;
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: aliceblue;
+    }
+    .info .h1Info::selection{
+        background-color: gold;
+    }
+    .info .pInfo{
+        margin-left: 30%;
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+    .info .buttonInfo{
+        margin-left: 30%;
+        margin-top: 2%;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: gold;
+        color: black;
+    }
+    .info .buttonInfo:active{
+        margin-left: 7%;
+        margin-top: 2%;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: gold;
+        color: black;
+        transform: translateY(5px);
+    }
+    
+}
+
+@media screen and (max-width:1000px){
+    .info .imgInfo{
+        position: absolute;
+        width: 614px;
+        left: 10%;
+        top: 10%;
+    }
+}
+@media screen and (max-width:700px){
+    .info .imgInfo{
+        position: absolute;
+        width: 430px;
+        left: 10%;
+        top: 10%;
+    }
+}
+
+
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    background-color: #0e005a;
+    display: flex;
+    justify-content: center;
+    color: #f0f0f1;
+    font-family: sans-serif;
+}
+
+.c2H1{
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+}
+.c2H1 h1{
+    font-weight: bolder;
+}
+
+
+.information-brans{
+    width: 100vw;
+    height: 75vh;
+    position: relative;
+    top: 100px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.information-brans div{
+    height: 500px;
+    width: 500px;
+    background-color: #01263a;
+    position: relative;
+    box-shadow: 5px 5px 20px gold;
+    transition: all 1s ease;
+}
+.information-brans div:hover{
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    position: relative;
+    transform: scale(1.1);
+}
+.information-brans .Ford img{
+    width: 100%;
+    height: 50%;
+}
+.information-brans .Ford h1{
+    color: #01263a;
+    font-weight: bold;
+    font-size: 30px;
+}
+.information-brans .Ford p{
+    color: #01263a;
+    font-size: 20px;
+}
+.information-brans .Ford button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #101517;
+    color: #f0f0f1;
+    position: absolute;
+    top: 60vh;
+    left: 150px;
+    border-radius: 10px;
+}
+
+
+
+.information-brans .Toyota img{
+    width: 100%;
+    height: 50%;
+}
+.information-brans .Toyota h1{
+    color: #01263a;
+    font-weight: bold;
+    font-size: 30px;
+}
+.information-brans .Toyota p{
+    color: #01263a;
+    font-size: 20px;
+}
+.information-brans .Toyota button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #101517;
+    color: #f0f0f1;
+    position: absolute;
+    top: 60vh;
+    left: 150px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container3{
+    background-color: #101517;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.information-cars{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.information-cars .title{
+    color: #f0f0f1;
+    position: absolute;
+    top: 0;
+}
+
+
+.information-cars div{
+    margin-top: 100px;
+    background-color: #01263a;
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    box-shadow: 5px 5px 20px gold;
+    transition: all 1s ease;
+}
+.information-cars div:hover{
+    background-color: antiquewhite;
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    transform: scale(1.1);
+}
+.information-cars div img{
+    width: 100%;
+    height: 50%;
+}
+.information-cars div p{
+    margin-top: 25px;
+    color: #01263a;
+}
+.information-cars div h1{
+    color: #01263a;
+}
+.information-cars div .btnC2{
+    margin-top: 20px;
+    margin-left: 29%;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #101517;
+    color: #f0f0f1;
+    border-radius:10px;
+}
+.information-cars div .btnC2:active{
+    margin-top: 20px;
+    margin-left: 29%;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #101517;
+    color: #f0f0f1;
+    border-radius:10px;
+    transform: translateY(5px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container4{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 57);
+}
+.container4 h1{
+    color: #f0f0f1;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.h1C3{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.container4 .BoxC3{
+    width: 84%;
+    height: 60%;
+    cursor: pointer;
+    display: inline-block;
+    background-color:darkgray;
+    margin-top: 20vh;
+    margin-left: 40px;
+    box-shadow: 5px 5px 20px black;
+    transition: all 0.9s ease;
+}
+.container4 .BoxC3:hover{
+    width: 84%;
+    height: 60%;
+    cursor: pointer;
+    display: inline-block;
+    background-color:darkgray;
+    margin-top: 20vh;
+    margin-left: 120px; 
+    box-shadow: 5px 5px 20px black;
+    transform: scale(1.1);
+}
+.container4 .BoxC3 img{
+    height: 100%;
+    width: 50%;
+    /* margin-left: 20px; */
+}
+.container4 .BoxC3 h1{
+    display: inline-block;
+    margin-left: 45vW;
+    position: absolute;
+    font-weight: bold;
+    color: black;
+}
+.container4 .BoxC3 p{
+    display: inline-block;
+    margin-left: 45vW;
+    position: absolute;
+    margin-top: 20vh ;
+    width: 500px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container4 .BoxC3 button{
+    width: 200px;
+    height: 50px;
+    margin-left: 50vw;
+    margin-top: 48vh;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #01263a;
+    color: #f0f0f1;
+}
+
+
+
+.containerF{
+    background-color: black;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+
+}
+
+.iconef{
+    display: inline-block;
+    position: relative;
+    left: 75vw;
+    top: 140px;
+    
+}
+.iconef i{
+    /* margin: 15px; */
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.footer ul{
+    display: inline-block;
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: center;
+    justify-content: space-around;
+    color: #f0f0f1;
+    margin-top: 16vh;
+    margin-left:25vw;
+}
+.containerF h1{
+    height: 80px;
+    color: #f0f0f1;
+    margin-top: 50px;
+    margin-left: 40px;
+    transform: scaleY(1.2);
+    font-weight: bold;
+}
